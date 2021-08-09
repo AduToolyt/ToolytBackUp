@@ -1,0 +1,118 @@
+[
+    {
+        "id": 200,
+        "menu_name": "Lead",
+        "link": "",
+        "imgName": "Leads",
+        "show_in": 0
+    },{
+        "id": 201,
+        "menu_name": "Customer",
+        "link": "",
+        "imgName": "Customers",
+        "show_in": 0
+    },{
+        "id": 202,
+        "menu_name": "Contacts",
+        "link": "",
+        "imgName": "contacts",
+        "show_in": 0
+    },{
+        "id": 203,
+        "menu_name": "Account",
+        "link": "",
+        "imgName": "feeds_accounts",
+        "show_in":0
+    },{
+        "id": 204,
+        "menu_name": "Opportunity/Deal",
+        "link": "",
+        "imgName": "Deals",
+        "show_in":0
+    },{
+        "id": 205,
+        "menu_name": "Task",
+        "link": "",
+        "imgName": "Task",
+        "show_in": 0
+    },{
+        "id": 206,
+        "menu_name": "New Visit",
+        "link": "",
+        "imgName": "Visit",
+        "show_in": 0
+    },{
+        "id": 207,
+        "menu_name": "Schedule Visit",
+        "link": "",
+        "imgName": "visit_schedule",
+        "show_in": 0
+    },{
+        "id": 208,
+        "menu_name": "Expense",
+        "link": "",
+        "imgName": "expense_add",
+        "show_in":0
+    },{
+        "id": 209,
+        "menu_name": "Jobs",
+        "link": "",
+        "imgName": "Jobs",
+        "show_in": 0
+    },{
+        "id": 210,
+        "menu_name": "Order",
+        "link": "",
+        "imgName": "home_order",
+        "show_in": 0
+    },{
+        "id": 211,
+        "menu_name": "Leave",
+        "link": "",
+        "imgName": "Leaves",
+        "show_in": 0
+    },{
+        "id": 212,
+        "menu_name": "Stock",
+        "link": "",
+        "imgName": "inventory_stock",
+        "show_in": 0
+    },{
+        "id": 213,
+        "menu_name": "Form",
+        "link": "",
+        "imgName": "Forms",
+        "show_in": 0
+    },{
+        "id": 214,
+        "menu_name": "Distributer",
+        "link": "",
+        "imgName": "distributor_add",
+        "show_in": 0
+    },{
+        "id": 215,
+        "menu_name": "Start Beat",
+        "link": "",
+        "imgName": "start_beat",
+        "show_in": 0
+    },{
+        "id": 216,
+        "menu_name": "Broadcast",
+        "link": "",
+        "imgName": "Broadcast",
+        "show_in": 0
+    },{
+        "id": 217,
+        "menu_name": "Approval",
+        "link": "",
+        "imgName": "approval_form_menu_add",
+        "show_in": 0
+    },{
+        "id": 218,
+        "menu_name": "Feed",
+        "link": "",
+        "imgName": "",
+        "show_in": 2
+    }
+]
+ 

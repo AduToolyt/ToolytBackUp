@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Filter View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="FilterViewController" id="BYZ-38-t0r" customClass="FilterViewController" customModule="Toolty" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="U7H-jX-juY">
+                                <rect key="frame" x="0.0" y="101" width="165.5" height="761"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Eun-zD-8Tn">
+                                <rect key="frame" x="165.5" y="101" width="248.5" height="761"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LXV-9O-KiE">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="101"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lV8-wu-NYf">
+                                        <rect key="frame" x="20" y="50.5" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="BPq-mT-LuJ"/>
+                                            <constraint firstAttribute="height" constant="40" id="J2G-bW-wvQ"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="ic_back"/>
+                                        <connections>
+                                            <action selector="backBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iKV-lV-Sl0"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Filter by" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cig-o3-Fii">
+                                        <rect key="frame" x="80" y="60.5" width="61" height="20"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uCk-zv-Pny">
+                                        <rect key="frame" x="364" y="55.5" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Cpf-Ta-9M9"/>
+                                            <constraint firstAttribute="width" constant="30" id="cUw-rS-IPb"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="checkmark" catalog="system"/>
+                                        <connections>
+                                            <action selector="filterApply:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UGB-th-Pi0"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" name="filterviewHeader"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="uCk-zv-Pny" secondAttribute="trailing" constant="20" id="AWu-TT-jy8"/>
+                                    <constraint firstItem="lV8-wu-NYf" firstAttribute="leading" secondItem="LXV-9O-KiE" secondAttribute="leading" constant="20" id="RRo-P8-IUw"/>
+                                    <constraint firstItem="lV8-wu-NYf" firstAttribute="centerY" secondItem="LXV-9O-KiE" secondAttribute="centerY" constant="20" id="YNf-ZR-O2M"/>
+                                    <constraint firstItem="cig-o3-Fii" firstAttribute="centerY" secondItem="lV8-wu-NYf" secondAttribute="centerY" id="bxN-X0-xjY"/>
+                                    <constraint firstItem="cig-o3-Fii" firstAttribute="leading" secondItem="lV8-wu-NYf" secondAttribute="trailing" constant="20" id="f7j-ye-6YW"/>
+                                    <constraint firstItem="uCk-zv-Pny" firstAttribute="centerY" secondItem="cig-o3-Fii" secondAttribute="centerY" id="pwX-TM-b2m"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LXV-9O-KiE" secondAttribute="trailing" id="0Nf-Ac-KDA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Eun-zD-8Tn" secondAttribute="bottom" id="5F0-Qd-zpn"/>
+                            <constraint firstItem="LXV-9O-KiE" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="64/568" id="5aP-xD-NL4"/>
+                            <constraint firstItem="U7H-jX-juY" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.4" id="GZv-li-0T9"/>
+                            <constraint firstItem="U7H-jX-juY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="H6D-eT-NmF"/>
+                            <constraint firstItem="LXV-9O-KiE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="JX2-vr-WTG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Eun-zD-8Tn" secondAttribute="trailing" id="bBJ-CN-Fji"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="U7H-jX-juY" secondAttribute="bottom" id="c7J-UY-r6y"/>
+                            <constraint firstItem="Eun-zD-8Tn" firstAttribute="leading" secondItem="U7H-jX-juY" secondAttribute="trailing" id="hwP-ps-rGb"/>
+                            <constraint firstItem="LXV-9O-KiE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="tDu-m0-ZIj"/>
+                            <constraint firstItem="U7H-jX-juY" firstAttribute="top" secondItem="LXV-9O-KiE" secondAttribute="bottom" id="txu-xE-qeG"/>
+                            <constraint firstItem="Eun-zD-8Tn" firstAttribute="top" secondItem="LXV-9O-KiE" secondAttribute="bottom" id="wc1-Tj-GUq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="categoryTableView" destination="U7H-jX-juY" id="1ZJ-Mg-P4X"/>
+                        <outlet property="filterTableView" destination="Eun-zD-8Tn" id="p9C-mL-7I1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="checkmark" catalog="system" width="128" height="114"/>
+        <image name="ic_back" width="21.333333969116211" height="21.333333969116211"/>
+        <namedColor name="filterviewHeader">
+            <color red="0.082000002264976501" green="0.38400000333786011" blue="0.67500001192092896" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,56 @@
+/* 
+  Localizable.strings
+  Toolty
+
+  Created by Multipz Technology on 07/07/21.
+  
+*/
+
+
+/* Select Language */
+"SelectLanguageTxt" = "Select Language";
+
+
+
+/* Onboarding Screen String */
+"LocationPermissionTxt" = "Location Permission";
+"LocationPermissionMessageTxt" = "We respect your privacy and we will never track your location when you are not working. We need permission to access your location for marking attendance and showing customers nearby";
+"LocationAllowNext" = "ALLOW LOCATION";
+
+"lbLNotiPermissionTxt" = "Notification Permission";
+"NotifPermissionMsgTxt" = "It is important that you are notified when you have things to do. Let us remind you about upcoming meetings, jobs to complete, opportunities to close etc. We will never spam your inbox.";
+"AllowNotificationTxt" = "ALLOW NOTIFICATION";
+
+/* Select Language */
+"SelectLanguageTxt" = "Select Language";
+"EnterForgotUsernameTxt" = "Enter Username";
+"GetOtpTxt" = "GET OTP";
+
+/* Login Screen String */
+"LoginHeaderTxt" = "Welcome Home";
+"LoginTitleTxt" = "Sign in to continue";
+"LoginUserPlaceTxt" = "Username";
+"LoginPassPlaceTxt" = "Password";
+"LoginRememberMeTxt" = "Remember Me";
+"LoginButtonSignInTxt" = "SIGN IN";
+"LoginlblMarkLeaveTxt" = "Not Working today? Mark Leave";
+"LoginlblForgotPassTxt" = "Forgot Password?";
+
+/* Login Confirm String */
+"LoginConfirmHeaderTxt" = "Login";
+"YourAddressTxt" = "You are login from";
+"LoginBtnReset" = "Reset";
+"LoginConfirBtnReset" = "Confirm";
+"LoginConfirShowWrongLoc" = "Showing wrong Location";
+
+
+/* Forgot Password Scree String */
+"ForgotHeaderTxt" = "Forgot Password";
+"EnterForgotUsernameTxt" = "Enter Username";
+"GetOtpTxt" = "GET OTP";
+
+
+/* Menu Screen */
+"SwitchLanguageTxt" = "Switch Language";
+"Contacts" = "Contacts";
+"Deals" = "My Deals";

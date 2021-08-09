@@ -1,0 +1,63 @@
+
+/* Class = "UIButton"; normalTitle = "Reset"; ObjectID = "8Tb-BJ-r1d"; */
+"8Tb-BJ-r1d.normalTitle" = "Reset";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "9PY-1S-Ars"; */
+"9PY-1S-Ars.placeholder" = "Username";
+
+/* Class = "UIButton"; normalTitle = "ALLOW LOCATION"; ObjectID = "Arh-rS-fF6"; */
+"Arh-rS-fF6.normalTitle" = "ALLOW LOCATION";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "BTk-3m-MmM"; */
+"BTk-3m-MmM.normalTitle" = "Confirm";
+
+/* Class = "UILabel"; text = "Sign in to continue"; ObjectID = "E9y-28-yof"; */
+"E9y-28-yof.text" = "Sign in to continue";
+
+/* Class = "UILabel"; text = "Version"; ObjectID = "IXZ-8j-IwF"; */
+"IXZ-8j-IwF.text" = "Version";
+
+/* Class = "UIButton"; normalTitle = "GET OTP"; ObjectID = "IzH-bR-qda"; */
+"IzH-bR-qda.normalTitle" = "GET OTP";
+
+/* Class = "UIButton"; normalTitle = "SIGN IN"; ObjectID = "KLR-4F-EPz"; */
+"KLR-4F-EPz.normalTitle" = "SIGN IN";
+
+/* Class = "UITextField"; placeholder = "Enter username"; ObjectID = "LDR-te-JRc"; */
+"LDR-te-JRc.placeholder" = "Enter username";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "Vix-O2-kKz"; */
+"Vix-O2-kKz.placeholder" = "Password";
+
+/* Class = "UITextField"; text = "demotest@789#$"; ObjectID = "Vix-O2-kKz"; */
+"Vix-O2-kKz.text" = "demotest@789#$";
+
+/* Class = "UIButton"; normalTitle = "Showing wrong location?"; ObjectID = "Yyi-mO-1az"; */
+"Yyi-mO-1az.normalTitle" = "Showing wrong location?";
+
+/* Class = "UILabel"; text = "Select Language"; ObjectID = "bG0-OB-UuJ"; */
+"bG0-OB-UuJ.text" = "Select Language";
+
+/* Class = "UILabel"; text = "Forgot Password"; ObjectID = "bI7-56-nQv"; */
+"bI7-56-nQv.text" = "Forgot Password";
+
+/* Class = "UILabel"; text = "Remember Me "; ObjectID = "gCh-4Q-SSs"; */
+"gCh-4Q-SSs.text" = "Remember Me ";
+
+/* Class = "UILabel"; text = "We respect your privacy and we will never track your location when you are not working. We need permission to access your location for marking attendance and showing customers nearby"; ObjectID = "h0a-Ne-TPK"; */
+"h0a-Ne-TPK.text" = "We respect your privacy and we will never track your location when you are not working. We need permission to access your location for marking attendance and showing customers nearby";
+
+/* Class = "UILabel"; text = "Location Permission"; ObjectID = "hlk-Ay-gat"; */
+"hlk-Ay-gat.text" = "Location Permission";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password?"; ObjectID = "l96-TI-bqm"; */
+"l96-TI-bqm.normalTitle" = "Forgot Password?";
+
+/* Class = "UIButton"; normalTitle = "Not Working today? Mark Leave"; ObjectID = "mmi-99-9Xr"; */
+"mmi-99-9Xr.normalTitle" = "Not Working today? Mark Leave";
+
+/* Class = "UILabel"; text = "Welcome Back"; ObjectID = "o8B-C2-H7f"; */
+"o8B-C2-H7f.text" = "Welcome Back";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "yN7-Vr-5yv"; */
+"yN7-Vr-5yv.text" = "Login";

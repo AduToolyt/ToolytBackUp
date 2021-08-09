@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19H1323" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AddMenu" representedClassName="NSA.AddMenu" syncable="YES">
+        <attribute name="addMenuArray" optional="YES" attributeType="Transformable" customClassName=".NSArray"/>
+    </entity>
+    <entity name="CustLeadLists" representedClassName=".CustLeadLists" syncable="YES">
+        <attribute name="assigned_to_id" optional="YES" attributeType="String"/>
+        <attribute name="company_name" optional="YES" attributeType="String"/>
+        <attribute name="customer_id" optional="YES" attributeType="String"/>
+        <attribute name="customer_name" optional="YES" attributeType="String"/>
+        <attribute name="delivery_assigned_to_id" optional="YES" attributeType="String"/>
+        <attribute name="delivery_privilege" optional="YES" attributeType="String"/>
+        <attribute name="full_name" optional="YES" attributeType="String"/>
+        <attribute name="lead_status_id" optional="YES" attributeType="String"/>
+        <attribute name="location" optional="YES" attributeType="String"/>
+        <attribute name="order_assigned_to_id" optional="YES" attributeType="String"/>
+        <attribute name="payment_assigned_to_id" optional="YES" attributeType="String"/>
+        <attribute name="payment_privilege" optional="YES" attributeType="String"/>
+        <attribute name="status_type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="LabelData" representedClassName=".LabelData" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="modualStatus" optional="YES" attributeType="String"/>
+        <attribute name="moduleName" optional="YES" attributeType="String"/>
+        <attribute name="values" optional="YES" attributeType="Transformable" customClassName="NSArray"/>
+    </entity>
+    <entity name="LeadViewindustries" representedClassName=".LeadViewindustries" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="industry_name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="LeadViewleadSource" representedClassName=".LeadViewleadSource" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="source_name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="LeadViewleadStatus" representedClassName=".LeadViewleadStatus" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="lead_status" optional="YES" attributeType="String"/>
+        <attribute name="status_type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="LeadViewUserList" representedClassName=".LeadViewUserList" syncable="YES">
+        <attribute name="first_name" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="last_name" optional="YES" attributeType="String"/>
+        <attribute name="level_id" optional="YES" attributeType="String"/>
+        <attribute name="user_id" optional="YES" attributeType="String"/>
+        <attribute name="user_name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MapsOption" representedClassName=".MapsOption" syncable="YES">
+        <attribute name="nearbyTypes" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="OpporunityOption" representedClassName=".OpporunityOption" syncable="YES">
+        <attribute name="leadCustomer" optional="YES" attributeType="String"/>
+        <attribute name="productMandatory" optional="YES" attributeType="String"/>
+        <attribute name="productPrice" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Privilege" representedClassName=".Privilege" syncable="YES">
+        <attribute name="account_add" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="account_edit" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="account_view" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="agora_module_status" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="approval_form_add" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="approval_form_edit" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="approval_form_menu_add" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="approval_form_menu_edit" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="approval_form_menu_view" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="approval_form_view" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="attendance_view" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="broadcast_view" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="call_history_view" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="cibil_module_status" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="contacts_menu_add" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="contacts_menu_update" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="contacts_menu_view" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="customer_add" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="customer_edit" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="customerMobileMask" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="customerView" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="deal_estimated_value_edit" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="dealForCustomerOrLeadStatus" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="display_nearby_tab_in_customer" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="display_nearby_tab_in_lead" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="distributor_add" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="distributor_edit" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="distributor_view" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="dot_message_status" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="dpr_view" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="expense_add" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="expense_approve" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="expense_claim" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="expense_view" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="form_add" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="form_edit" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="form_menu_add" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="form_menu_edit" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="form_menu_view" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="form_view" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="goal_view" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="invoice_record_payment" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="invoice_view" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lead_add" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lead_edit" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lead_view" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="leadMobileMask" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="leave_apply" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="leave_approve" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="live_track_view" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lost_won_update" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="news_module_status" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="oppurtunity_add" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="oppurtunity_edit" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="oppurtunity_view" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="order_delivery_approve" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="order_payment_approve" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="order_view" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="outbound_enabled" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="product_based_on_currency" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="productAdd" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="productEdit" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="productMandatoryStatus" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="productPricingStatus" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="productView" optional="YES" attributeType="String"/>
+        <attribute name="purchase_add" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="purchase_view" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="service_job_add" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="service_job_edit" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="service_job_view" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="start_beat" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="start_job_beat" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="stock_add" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="stock_view" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="task_add" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="task_view" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="team_customisation_status" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="userAdd" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="userEdit" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="userView" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="view_all_attendance_status" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="visit_draft_status" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="visit_schedule" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="visit_view" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="work_from_home_status" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="User" representedClassName=".User" syncable="YES">
+        <attribute name="apiKey" optional="YES" attributeType="String"/>
+        <attribute name="catId" optional="YES" attributeType="String"/>
+        <attribute name="color" optional="YES" attributeType="String"/>
+        <attribute name="companyId" optional="YES" attributeType="String"/>
+        <attribute name="deviceId" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="exitEnableStatus" optional="YES" attributeType="String"/>
+        <attribute name="forceLogoutStatus" optional="YES" attributeType="String"/>
+        <attribute name="froceLogoutFromStatus" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="obBoardingEnable" optional="YES" attributeType="String"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
+        <attribute name="picName" optional="YES" attributeType="String"/>
+        <attribute name="picUrl" optional="YES" attributeType="String"/>
+        <attribute name="storeEnableStatus" optional="YES" attributeType="String"/>
+        <attribute name="storeLocation" optional="YES" attributeType="String"/>
+        <attribute name="storeLocationDistance" optional="YES" attributeType="String"/>
+        <attribute name="userAccessType" optional="YES" attributeType="String"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+        <attribute name="userRefId" optional="YES" attributeType="String"/>
+        <attribute name="userStatus" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserList" representedClassName=".UserList" syncable="YES">
+        <attribute name="first_name" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="last_name" optional="YES" attributeType="String"/>
+        <attribute name="level_id" optional="YES" attributeType="String"/>
+        <attribute name="user_id" optional="YES" attributeType="String"/>
+        <attribute name="user_name" optional="YES" attributeType="String"/>
+        <attribute name="values" optional="YES" attributeType="Transformable" customClassName=".NSArray"/>
+    </entity>
+    <entity name="VisitStatusFilter" representedClassName=".VisitStatusFilter" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="label" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="AddMenu" positionX="252" positionY="-243" width="128" height="58"/>
+        <element name="CustLeadLists" positionX="261" positionY="-234" width="128" height="238"/>
+        <element name="LabelData" positionX="394.1875" positionY="-325.5546875" width="128" height="103"/>
+        <element name="MapsOption" positionX="252" positionY="-234" width="128" height="58"/>
+        <element name="OpporunityOption" positionX="261" positionY="-234" width="128" height="88"/>
+        <element name="Privilege" positionX="252" positionY="-243" width="128" height="1318"/>
+        <element name="User" positionX="114.03515625" positionY="-397.73828125" width="128" height="373"/>
+        <element name="UserList" positionX="252" positionY="-243" width="128" height="148"/>
+        <element name="VisitStatusFilter" positionX="252" positionY="-243" width="128" height="73"/>
+        <element name="LeadViewUserList" positionX="252" positionY="-243" width="128" height="133"/>
+        <element name="LeadViewleadStatus" positionX="261" positionY="-234" width="128" height="88"/>
+        <element name="LeadViewleadSource" positionX="270" positionY="-225" width="128" height="73"/>
+        <element name="LeadViewindustries" positionX="279" positionY="-216" width="128" height="73"/>
+    </elements>
+</model>

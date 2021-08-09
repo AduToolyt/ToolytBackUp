@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SubGoalCollectionViewCell" id="gTV-IL-0wX" customClass="SubGoalCollectionViewCell" customModule="Toolty" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="155" height="161"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="155" height="161"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="It6-7K-Qav" customClass="CircleProgressBar">
+                        <rect key="frame" x="0.0" y="0.0" width="155" height="99"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="progressBarProgressColor">
+                                <color key="value" name="yellow_c"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="progressBarWidth">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="progressBarTrackColor">
+                                <color key="value" name="gry_c"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="hintViewBackgroundColor">
+                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="hintTextColor">
+                                <color key="value" name="blue_c"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="startAngle">
+                                <real key="value" value="-90"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="progress">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="hintViewSpacing">
+                                <real key="value" value="-5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Jxl-xU-Yrm">
+                        <rect key="frame" x="10" y="104" width="135" height="32"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ups-ep-7yk" customClass="JPWidthLabel" customModule="Toolty" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="135" height="17"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5YP-RJ-who" customClass="JPWidthLabel" customModule="Toolty" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="18" width="135" height="14"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                <color key="textColor" name="gry_c"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Jxl-xU-Yrm" secondAttribute="trailing" constant="10" id="1u8-wb-u4k"/>
+                <constraint firstItem="It6-7K-Qav" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="0.614907" id="2rF-io-yuT"/>
+                <constraint firstItem="Jxl-xU-Yrm" firstAttribute="top" secondItem="It6-7K-Qav" secondAttribute="bottom" constant="5" id="7bC-WC-9jN"/>
+                <constraint firstAttribute="trailing" secondItem="It6-7K-Qav" secondAttribute="trailing" id="Rsk-pi-56L"/>
+                <constraint firstItem="It6-7K-Qav" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="UED-Ro-bev"/>
+                <constraint firstItem="It6-7K-Qav" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="fL3-hp-P1X"/>
+                <constraint firstItem="Jxl-xU-Yrm" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="iC7-SO-Tku"/>
+            </constraints>
+            <size key="customSize" width="155" height="161"/>
+            <connections>
+                <outlet property="cirProgressBar" destination="It6-7K-Qav" id="emo-21-OKW"/>
+                <outlet property="nameLbl" destination="ups-ep-7yk" id="gQQ-bZ-SvK"/>
+                <outlet property="valuesLbl" destination="5YP-RJ-who" id="deC-Di-cnV"/>
+            </connections>
+            <point key="canvasLocation" x="-93.478260869565219" y="96.09375"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="blue_c">
+            <color red="0.28999999165534973" green="0.52499997615814209" blue="0.77999997138977051" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="gry_c">
+            <color red="0.67100000381469727" green="0.67100000381469727" blue="0.67100000381469727" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yellow_c">
+            <color red="1" green="0.71399998664855957" blue="0.3529999852180481" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

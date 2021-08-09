@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LeaveCollectionViewCell" id="gTV-IL-0wX" customClass="LeaveCollectionViewCell" customModule="Toolty" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="231" height="113"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="231" height="113"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XsS-Hu-OJF">
+                        <rect key="frame" x="10" y="10" width="211" height="93"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ZQ-B7-Okr" customClass="JPWidthLabel" customModule="Toolty" customModuleProvider="target">
+                                <rect key="frame" x="21" y="15" width="34.5" height="16.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pp0-lD-zDV" customClass="JPWidthLabel" customModule="Toolty" customModuleProvider="target">
+                                <rect key="frame" x="21" y="36.5" width="34.5" height="16.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="R8C-vY-12C">
+                                <rect key="frame" x="21" y="63" width="180" height="5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="5" id="eR6-Hw-cg1"/>
+                                </constraints>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="R8C-vY-12C" secondAttribute="trailing" constant="10" id="0kG-6f-GIW"/>
+                            <constraint firstItem="Pp0-lD-zDV" firstAttribute="leading" secondItem="XsS-Hu-OJF" secondAttribute="leading" constant="21" id="2HE-gm-nVZ"/>
+                            <constraint firstItem="R8C-vY-12C" firstAttribute="leading" secondItem="XsS-Hu-OJF" secondAttribute="leading" constant="21" id="3n8-ks-2bx"/>
+                            <constraint firstItem="Pp0-lD-zDV" firstAttribute="top" secondItem="8ZQ-B7-Okr" secondAttribute="bottom" constant="5" id="Adm-Aj-t1y"/>
+                            <constraint firstItem="8ZQ-B7-Okr" firstAttribute="top" secondItem="XsS-Hu-OJF" secondAttribute="top" constant="15" id="Lmt-2I-8W7"/>
+                            <constraint firstItem="8ZQ-B7-Okr" firstAttribute="leading" secondItem="XsS-Hu-OJF" secondAttribute="leading" constant="21" id="RRG-G1-elI"/>
+                            <constraint firstItem="R8C-vY-12C" firstAttribute="top" secondItem="Pp0-lD-zDV" secondAttribute="bottom" constant="10" id="ogB-NL-Zmf"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="XsS-Hu-OJF" secondAttribute="trailing" constant="10" id="HfO-UH-rKI"/>
+                <constraint firstItem="XsS-Hu-OJF" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="1.13274" constant="-35" id="QuB-e1-Fhi"/>
+                <constraint firstItem="XsS-Hu-OJF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="XZL-fb-XiR"/>
+                <constraint firstItem="XsS-Hu-OJF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="qcS-5s-D1w"/>
+            </constraints>
+            <size key="customSize" width="231" height="113"/>
+            <connections>
+                <outlet property="leavepolic" destination="8ZQ-B7-Okr" id="v71-4R-Rfj"/>
+                <outlet property="outofLeave" destination="Pp0-lD-zDV" id="fpR-4x-MPe"/>
+                <outlet property="progressvi" destination="R8C-vY-12C" id="2CF-bp-smz"/>
+            </connections>
+            <point key="canvasLocation" x="197.82608695652175" y="88.727678571428569"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

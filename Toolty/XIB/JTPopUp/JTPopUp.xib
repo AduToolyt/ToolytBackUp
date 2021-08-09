@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Bold.ttf">
+            <string>OpenSans-Bold</string>
+        </array>
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans-Regular</string>
+        </array>
+        <array key="OpenSans-SemiBold.ttf">
+            <string>OpenSans-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="JTPopUp" customModule="Simpilli" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TKn-xr-D8z">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                    <color key="backgroundColor" red="0.84705882352941175" green="0.96078431372549022" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rac-9t-cGH" customClass="KPRoundView" customModule="Simpilli" customModuleProvider="target">
+                    <rect key="frame" x="20" y="64" width="374" height="534.66666666666663"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_update" translatesAutoresizingMaskIntoConstraints="NO" id="jvL-fb-Dsc">
+                            <rect key="frame" x="0.0" y="0.0" width="374" height="300"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="300" id="39C-UK-IRz"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="v1.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6yT-Os-Zbu">
+                            <rect key="frame" x="170" y="317" width="34.333333333333343" height="21"/>
+                            <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Update Available" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CXT-SW-yUf" customClass="JPWidthLabel" customModule="Simpilli" customModuleProvider="target">
+                            <rect key="frame" x="78.333333333333329" y="348" width="217.33333333333337" height="25.666666666666686"/>
+                            <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="22"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We have added amazing features to our app. Please update to the new version to continue using Simpilli." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZ2-1i-8gC" customClass="JPWidthLabel" customModule="Simpilli" customModuleProvider="target">
+                            <rect key="frame" x="23.333333333333343" y="388.66666666666669" width="327.33333333333326" height="56"/>
+                            <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0YW-zI-17p" customClass="KPRoundButton" customModule="Simpilli" customModuleProvider="target">
+                            <rect key="frame" x="87" y="464.66666666666663" width="200" height="50"/>
+                            <color key="backgroundColor" name="primary"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="0YW-zI-17p" secondAttribute="height" multiplier="4" id="nPR-gd-9hs"/>
+                                <constraint firstAttribute="height" constant="50" id="t9l-IS-Q2H"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="18"/>
+                            <color key="tintColor" name="secondary"/>
+                            <state key="normal" title="Update Now"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadious">
+                                    <real key="value" value="10"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="btnUpdate" destination="iN0-l3-epB" eventType="touchUpInside" id="Rfh-bY-5du"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="xZ2-1i-8gC" firstAttribute="centerX" secondItem="rac-9t-cGH" secondAttribute="centerX" id="2Ba-iL-a3z"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="xZ2-1i-8gC" secondAttribute="trailing" constant="20" id="4a4-TG-QEi"/>
+                        <constraint firstItem="0YW-zI-17p" firstAttribute="centerX" secondItem="rac-9t-cGH" secondAttribute="centerX" id="8i6-QG-QJW"/>
+                        <constraint firstAttribute="trailing" secondItem="jvL-fb-Dsc" secondAttribute="trailing" id="9A8-Qa-Dix"/>
+                        <constraint firstItem="CXT-SW-yUf" firstAttribute="top" secondItem="6yT-Os-Zbu" secondAttribute="bottom" constant="10" id="DLU-8R-7hs"/>
+                        <constraint firstItem="jvL-fb-Dsc" firstAttribute="top" secondItem="rac-9t-cGH" secondAttribute="top" id="MMH-Vd-Znc"/>
+                        <constraint firstItem="0YW-zI-17p" firstAttribute="top" secondItem="xZ2-1i-8gC" secondAttribute="bottom" constant="20" id="VbU-jz-BLO"/>
+                        <constraint firstItem="CXT-SW-yUf" firstAttribute="centerX" secondItem="rac-9t-cGH" secondAttribute="centerX" id="Vzt-TC-cpx"/>
+                        <constraint firstAttribute="bottom" secondItem="0YW-zI-17p" secondAttribute="bottom" constant="20" id="Xuf-yW-iQb"/>
+                        <constraint firstItem="6yT-Os-Zbu" firstAttribute="top" secondItem="jvL-fb-Dsc" secondAttribute="bottom" constant="17" id="Zay-D8-oIy"/>
+                        <constraint firstItem="xZ2-1i-8gC" firstAttribute="top" secondItem="CXT-SW-yUf" secondAttribute="bottom" constant="15" id="h4B-RR-lE6"/>
+                        <constraint firstItem="xZ2-1i-8gC" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="rac-9t-cGH" secondAttribute="leading" constant="20" id="jbV-6T-8km"/>
+                        <constraint firstItem="6yT-Os-Zbu" firstAttribute="centerX" secondItem="rac-9t-cGH" secondAttribute="centerX" id="mWH-Zs-TZU"/>
+                        <constraint firstItem="jvL-fb-Dsc" firstAttribute="leading" secondItem="rac-9t-cGH" secondAttribute="leading" id="nq7-Bb-1Tx"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadious">
+                            <real key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="TKn-xr-D8z" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="6bR-8B-bnP"/>
+                <constraint firstItem="rac-9t-cGH" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="0.9" id="Bo3-Zh-Z0I"/>
+                <constraint firstItem="rac-9t-cGH" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="KSk-ja-iKV"/>
+                <constraint firstAttribute="bottom" secondItem="TKn-xr-D8z" secondAttribute="bottom" id="M7S-pY-mSI"/>
+                <constraint firstItem="TKn-xr-D8z" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="bFk-lI-2BO"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="rac-9t-cGH" secondAttribute="trailing" constant="20" id="cmb-e1-aMC"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="TKn-xr-D8z" secondAttribute="trailing" id="yCO-Vl-QZ3"/>
+            </constraints>
+            <connections>
+                <outlet property="lblVersionNo" destination="6yT-Os-Zbu" id="vQd-co-R2n"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="153.2608695652174"/>
+        </view>
+        <view contentMode="scaleToFill" id="zf6-Ud-BkL" customClass="JTPopUp" customModule="Simpilli" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="50g-yd-hcN">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                    <color key="backgroundColor" red="0.12941176469999999" green="0.1647058824" blue="0.20392156859999999" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ITR-Q6-swD" customClass="KPRoundView" customModule="Simpilli" customModuleProvider="target">
+                    <rect key="frame" x="20" y="248.66666666666663" width="374" height="239"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Call Request" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5fa-AK-qaT">
+                            <rect key="frame" x="130" y="20.000000000000028" width="114.33333333333331" height="23.333333333333329"/>
+                            <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="20"/>
+                            <color key="textColor" name="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Canada Staff" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zq2-Dm-6s9" customClass="JPWidthLabel" customModule="Simpilli" customModuleProvider="target">
+                            <rect key="frame" x="53.000000000000007" y="63.333333333333336" width="87.666666666666686" height="17.666666666666664"/>
+                            <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="15"/>
+                            <color key="textColor" name="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_clock" translatesAutoresizingMaskIntoConstraints="NO" id="Gk2-Kf-Xdg">
+                            <rect key="frame" x="53" y="87.000000000000028" width="15" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="15" id="KjB-8H-XpG"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aug 12, 06:33 pm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dqG-pK-xKn" customClass="JPWidthLabel" customModule="Simpilli" customModuleProvider="target">
+                            <rect key="frame" x="70" y="83.000000000000028" width="119.33333333333331" height="17.666666666666671"/>
+                            <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="15"/>
+                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Medicine not came" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yao-kh-D3m" customClass="JPWidthLabel" customModule="Simpilli" customModuleProvider="target">
+                            <rect key="frame" x="8" y="110.66666666666666" width="128.33333333333334" height="17.666666666666657"/>
+                            <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="15"/>
+                            <color key="textColor" name="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CJi-QE-GrI" customClass="KPRoundImageView" customModule="Simpilli" customModuleProvider="target">
+                            <rect key="frame" x="8" y="63.333333333333343" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="CJi-QE-GrI" secondAttribute="height" id="Dc4-Og-wqV"/>
+                                <constraint firstAttribute="height" constant="40" id="ank-gA-8qs"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isRatioAppliedOnSize" value="YES"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadious">
+                                    <real key="value" value="0.0"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cEn-S2-MuV">
+                            <rect key="frame" x="314" y="6.6666666666666856" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="88F-fo-VXs"/>
+                                <constraint firstAttribute="width" secondItem="cEn-S2-MuV" secondAttribute="height" id="rvE-U6-wIv"/>
+                            </constraints>
+                            <color key="tintColor" name="primary"/>
+                            <state key="normal" image="xmark" catalog="system"/>
+                            <connections>
+                                <action selector="btnClose" destination="zf6-Ud-BkL" eventType="touchUpInside" id="Nev-0u-RWw"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Declined Reason" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AF5-Jj-J5T">
+                            <rect key="frame" x="8.0000000000000071" y="140.33333333333334" width="113.66666666666669" height="17.666666666666657"/>
+                            <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="15"/>
+                            <color key="textColor" systemColor="systemRedColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sdflkosamomskloamdlkmsakldmklsdflkosamomskloamdlkmsakldmklsdflkosamomskloamdlkmsakldmklsdflkosamomskloa sdflkosamomsklo" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOm-D0-PLr">
+                            <rect key="frame" x="8" y="163.00000000000003" width="353" height="56"/>
+                            <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="16"/>
+                            <color key="textColor" name="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dqG-pK-xKn" secondAttribute="trailing" constant="10" id="4wP-jO-CgE"/>
+                        <constraint firstItem="zq2-Dm-6s9" firstAttribute="leading" secondItem="CJi-QE-GrI" secondAttribute="trailing" constant="5" id="5N5-Uc-fJD"/>
+                        <constraint firstItem="Gk2-Kf-Xdg" firstAttribute="leading" secondItem="zq2-Dm-6s9" secondAttribute="leading" id="5WI-R6-ElN"/>
+                        <constraint firstAttribute="trailing" secondItem="cEn-S2-MuV" secondAttribute="trailing" constant="10" id="5pQ-Gu-VTU"/>
+                        <constraint firstItem="5fa-AK-qaT" firstAttribute="top" secondItem="ITR-Q6-swD" secondAttribute="top" constant="20" id="7IX-HV-zQb"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="zq2-Dm-6s9" secondAttribute="trailing" constant="10" id="9os-Jc-sol"/>
+                        <constraint firstItem="5fa-AK-qaT" firstAttribute="centerX" secondItem="ITR-Q6-swD" secondAttribute="centerX" id="BLw-Ir-t0T"/>
+                        <constraint firstAttribute="bottom" secondItem="fOm-D0-PLr" secondAttribute="bottom" constant="20" id="EA9-6z-ZD6"/>
+                        <constraint firstItem="Gk2-Kf-Xdg" firstAttribute="width" secondItem="Gk2-Kf-Xdg" secondAttribute="height" multiplier="1:1" id="Gg3-BY-A5T"/>
+                        <constraint firstItem="cEn-S2-MuV" firstAttribute="centerY" secondItem="5fa-AK-qaT" secondAttribute="centerY" id="Kfe-Di-bHc"/>
+                        <constraint firstItem="yao-kh-D3m" firstAttribute="top" secondItem="dqG-pK-xKn" secondAttribute="bottom" constant="10" id="RSX-Qi-BoP"/>
+                        <constraint firstItem="CJi-QE-GrI" firstAttribute="leading" secondItem="ITR-Q6-swD" secondAttribute="leading" constant="8" id="Z6k-iR-ERF"/>
+                        <constraint firstItem="fOm-D0-PLr" firstAttribute="top" secondItem="AF5-Jj-J5T" secondAttribute="bottom" constant="5" id="abn-3D-kks"/>
+                        <constraint firstItem="Gk2-Kf-Xdg" firstAttribute="top" secondItem="dqG-pK-xKn" secondAttribute="top" multiplier="1.05" id="btq-pd-BgR"/>
+                        <constraint firstItem="dqG-pK-xKn" firstAttribute="top" secondItem="zq2-Dm-6s9" secondAttribute="bottom" constant="2" id="dJo-WC-OKo"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="fOm-D0-PLr" secondAttribute="trailing" constant="10" id="kFJ-H4-sFl"/>
+                        <constraint firstItem="CJi-QE-GrI" firstAttribute="top" secondItem="zq2-Dm-6s9" secondAttribute="top" id="may-TI-xEl"/>
+                        <constraint firstItem="yao-kh-D3m" firstAttribute="leading" secondItem="CJi-QE-GrI" secondAttribute="leading" id="ozA-3E-ORM"/>
+                        <constraint firstItem="dqG-pK-xKn" firstAttribute="leading" secondItem="Gk2-Kf-Xdg" secondAttribute="trailing" constant="2" id="rQN-sO-dts"/>
+                        <constraint firstItem="AF5-Jj-J5T" firstAttribute="top" secondItem="yao-kh-D3m" secondAttribute="bottom" constant="12" id="tHq-Pz-Aid"/>
+                        <constraint firstItem="zq2-Dm-6s9" firstAttribute="top" secondItem="5fa-AK-qaT" secondAttribute="bottom" constant="20" id="uFp-Gi-4ik"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="yao-kh-D3m" secondAttribute="trailing" id="vON-kT-aMx"/>
+                        <constraint firstItem="AF5-Jj-J5T" firstAttribute="leading" secondItem="CJi-QE-GrI" secondAttribute="leading" id="xUP-Wa-rAW"/>
+                        <constraint firstItem="fOm-D0-PLr" firstAttribute="leading" secondItem="AF5-Jj-J5T" secondAttribute="leading" id="zg8-YL-KNY"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadious">
+                            <real key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="TIe-Tm-vVU"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="50g-yd-hcN" firstAttribute="leading" secondItem="TIe-Tm-vVU" secondAttribute="leading" id="02Y-l8-ZGU"/>
+                <constraint firstItem="ITR-Q6-swD" firstAttribute="centerY" secondItem="zf6-Ud-BkL" secondAttribute="centerY" id="C7D-Br-yWL"/>
+                <constraint firstItem="TIe-Tm-vVU" firstAttribute="trailing" secondItem="ITR-Q6-swD" secondAttribute="trailing" constant="20" id="WoO-es-i9l"/>
+                <constraint firstAttribute="bottom" secondItem="50g-yd-hcN" secondAttribute="bottom" id="ZFk-m3-Ea0"/>
+                <constraint firstItem="TIe-Tm-vVU" firstAttribute="trailing" secondItem="50g-yd-hcN" secondAttribute="trailing" id="g38-j8-0ZX"/>
+                <constraint firstItem="ITR-Q6-swD" firstAttribute="leading" secondItem="TIe-Tm-vVU" secondAttribute="leading" constant="20" id="htp-jv-FW5"/>
+                <constraint firstItem="50g-yd-hcN" firstAttribute="top" secondItem="zf6-Ud-BkL" secondAttribute="top" id="jgo-Ij-CFm"/>
+            </constraints>
+            <connections>
+                <outlet property="imgUser" destination="CJi-QE-GrI" id="2Sz-lb-j8a"/>
+                <outlet property="lblDate" destination="dqG-pK-xKn" id="URp-6z-mvQ"/>
+                <outlet property="lblDeclinTitle" destination="AF5-Jj-J5T" id="rdt-Qh-8j1"/>
+                <outlet property="lblDeclinedReason" destination="fOm-D0-PLr" id="MzS-Iw-lQr"/>
+                <outlet property="lblDesc" destination="yao-kh-D3m" id="ZTc-O4-2VQ"/>
+                <outlet property="lblName" destination="zq2-Dm-6s9" id="Itv-gp-LWz"/>
+            </connections>
+            <point key="canvasLocation" x="820" y="153"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_clock" width="17.333333969116211" height="17.333333969116211"/>
+        <image name="ic_update" width="114" height="100"/>
+        <image name="xmark" catalog="system" width="128" height="113"/>
+        <namedColor name="primary">
+            <color red="0.10588235294117647" green="0.60784313725490191" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="secondary">
+            <color red="0.8784313725490196" green="0.96470588235294119" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="textColor">
+            <color red="0.071000002324581146" green="0.17599999904632568" blue="0.082000002264976501" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

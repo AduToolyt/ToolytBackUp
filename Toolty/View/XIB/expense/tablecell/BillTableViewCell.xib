@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BillTableViewCell" rowHeight="122" id="KGk-i7-Jjw" customClass="BillTableViewCell" customModule="Toolty" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="122"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="122"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WN0-q1-9pk">
+                        <rect key="frame" x="0.0" y="5" width="320" height="112"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aUf-Ko-ygH">
+                                <rect key="frame" x="8" y="38.5" width="35" height="35"/>
+                                <color key="backgroundColor" name="gry_c"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="UHO-tM-4B5"/>
+                                    <constraint firstAttribute="width" constant="35" id="bXV-sF-1V1"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Purpose" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XHV-CX-HmH" customClass="JPWidthLabel" customModule="Toolty" customModuleProvider="target">
+                                <rect key="frame" x="58" y="5" width="42" height="15"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iHO-68-dZq" customClass="JPWidthLabel" customModule="Toolty" customModuleProvider="target">
+                                <rect key="frame" x="128" y="5" width="27" height="15"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ltx-yK-vkB" customClass="JPWidthLabel" customModule="Toolty" customModuleProvider="target">
+                                <rect key="frame" x="246" y="5.5" width="66" height="14"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                <color key="textColor" name="blue_c"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="97m-3a-Fok" customClass="JPWidthLabel" customModule="Toolty" customModuleProvider="target">
+                                <rect key="frame" x="58" y="28" width="27" height="15.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kyc-cy-fNB" customClass="JPWidthLabel" customModule="Toolty" customModuleProvider="target">
+                                <rect key="frame" x="128" y="28" width="50" height="15"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Kb-g1-Sou" customClass="JPWidthLabel" customModule="Toolty" customModuleProvider="target">
+                                <rect key="frame" x="58" y="56.5" width="30" height="14"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                <color key="textColor" name="blue_c"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mw8-9u-OhE" customClass="JPWidthLabel" customModule="Toolty" customModuleProvider="target">
+                                <rect key="frame" x="128" y="56" width="27" height="15"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o61-Fb-ak6" customClass="JPWidthLabel" customModule="Toolty" customModuleProvider="target">
+                                <rect key="frame" x="58" y="84" width="27" height="15"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="aUf-Ko-ygH" firstAttribute="leading" secondItem="WN0-q1-9pk" secondAttribute="leading" constant="8" id="6vZ-tA-B6O"/>
+                            <constraint firstItem="97m-3a-Fok" firstAttribute="leading" secondItem="aUf-Ko-ygH" secondAttribute="trailing" constant="15" id="CJj-rI-fhy"/>
+                            <constraint firstItem="mw8-9u-OhE" firstAttribute="top" secondItem="kyc-cy-fNB" secondAttribute="bottom" constant="13" id="I3x-8J-pke"/>
+                            <constraint firstItem="o61-Fb-ak6" firstAttribute="leading" secondItem="aUf-Ko-ygH" secondAttribute="trailing" constant="15" id="NQB-Q2-dwv"/>
+                            <constraint firstItem="iHO-68-dZq" firstAttribute="leading" secondItem="XHV-CX-HmH" secondAttribute="trailing" constant="28" id="OrU-z1-vS4"/>
+                            <constraint firstItem="7Kb-g1-Sou" firstAttribute="leading" secondItem="aUf-Ko-ygH" secondAttribute="trailing" constant="15" id="S4g-mZ-HZy"/>
+                            <constraint firstItem="7Kb-g1-Sou" firstAttribute="top" secondItem="97m-3a-Fok" secondAttribute="bottom" constant="13" id="WOp-Ol-aaD"/>
+                            <constraint firstItem="mw8-9u-OhE" firstAttribute="centerY" secondItem="7Kb-g1-Sou" secondAttribute="centerY" id="YEv-Hs-ujp"/>
+                            <constraint firstItem="XHV-CX-HmH" firstAttribute="top" secondItem="WN0-q1-9pk" secondAttribute="top" constant="5" id="bD1-gx-Xq0"/>
+                            <constraint firstItem="kyc-cy-fNB" firstAttribute="leading" secondItem="97m-3a-Fok" secondAttribute="trailing" constant="43" id="cdE-uj-HRL"/>
+                            <constraint firstItem="ltx-yK-vkB" firstAttribute="centerY" secondItem="iHO-68-dZq" secondAttribute="centerY" id="dQk-jY-yf2"/>
+                            <constraint firstItem="XHV-CX-HmH" firstAttribute="leading" secondItem="aUf-Ko-ygH" secondAttribute="trailing" constant="15" id="h1r-LE-Ixh"/>
+                            <constraint firstAttribute="trailing" secondItem="ltx-yK-vkB" secondAttribute="trailing" constant="8" id="hOm-Q6-Pkb"/>
+                            <constraint firstItem="iHO-68-dZq" firstAttribute="centerY" secondItem="XHV-CX-HmH" secondAttribute="centerY" id="hQU-xd-6LS"/>
+                            <constraint firstItem="97m-3a-Fok" firstAttribute="top" secondItem="XHV-CX-HmH" secondAttribute="bottom" constant="8" symbolic="YES" id="k0b-nJ-yXR"/>
+                            <constraint firstItem="aUf-Ko-ygH" firstAttribute="centerY" secondItem="WN0-q1-9pk" secondAttribute="centerY" id="oDf-lW-wfe"/>
+                            <constraint firstItem="o61-Fb-ak6" firstAttribute="top" secondItem="7Kb-g1-Sou" secondAttribute="bottom" constant="13.5" id="s7A-P3-DqZ"/>
+                            <constraint firstItem="mw8-9u-OhE" firstAttribute="leading" secondItem="kyc-cy-fNB" secondAttribute="leading" id="uIA-NL-xaS"/>
+                            <constraint firstItem="kyc-cy-fNB" firstAttribute="top" secondItem="iHO-68-dZq" secondAttribute="bottom" constant="8" symbolic="YES" id="vsh-h0-HIC"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="WN0-q1-9pk" secondAttribute="trailing" id="9bm-zA-RZ3"/>
+                    <constraint firstItem="WN0-q1-9pk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Bbx-8r-pKK"/>
+                    <constraint firstItem="WN0-q1-9pk" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" constant="-10" id="RnM-8T-ak3"/>
+                    <constraint firstItem="WN0-q1-9pk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="gfW-aV-o2M"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="amountLbl" destination="7Kb-g1-Sou" id="3PQ-0m-wWi"/>
+                <outlet property="commentLbl" destination="mw8-9u-OhE" id="0Gs-cY-gIa"/>
+                <outlet property="dateLbl" destination="o61-Fb-ak6" id="jSK-GE-Xl6"/>
+                <outlet property="expenseStatus" destination="iHO-68-dZq" id="SJh-9Y-lme"/>
+                <outlet property="img" destination="aUf-Ko-ygH" id="Q0y-35-UXf"/>
+                <outlet property="purposetypeLbl" destination="97m-3a-Fok" id="zv7-F6-tFq"/>
+            </connections>
+            <point key="canvasLocation" x="56.521739130434788" y="65.625"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="blue_c">
+            <color red="0.28999999165534973" green="0.52499997615814209" blue="0.77999997138977051" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="gry_c">
+            <color red="0.67100000381469727" green="0.67100000381469727" blue="0.67100000381469727" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

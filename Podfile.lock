@@ -1,0 +1,58 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - CircleProgressBar (0.32)
+  - FSCalendar (2.8.2)
+  - GoogleMaps (5.1.0):
+    - GoogleMaps/Maps (= 5.1.0)
+  - GoogleMaps/Base (5.1.0)
+  - GoogleMaps/Maps (5.1.0):
+    - GoogleMaps/Base
+  - GooglePlaces (5.0.0)
+  - Kingfisher (6.3.0)
+  - Nuke (9.5.0)
+  - ProgressHUD (13.6)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.8.2)
+  - Charts
+  - CircleProgressBar
+  - FSCalendar
+  - GoogleMaps
+  - GooglePlaces
+  - Kingfisher
+  - Nuke
+  - ProgressHUD
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Charts
+    - CircleProgressBar
+    - FSCalendar
+    - GoogleMaps
+    - GooglePlaces
+    - Kingfisher
+    - Nuke
+    - ProgressHUD
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  CircleProgressBar: 3920079be5224b62b3d9ed6eeb23ac01c835b681
+  FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
+  GoogleMaps: 086ae1dab659eaa7339bdb30fc88e2f44e7c597c
+  GooglePlaces: 5d87ca13ed98b7a937e0d8bc7026f718c7263271
+  Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
+  Nuke: 6f400a4ea957e09149ec335a3c6acdcc814d89e4
+  ProgressHUD: 4bdaa0d2ddf676b23324b199f9facffb5c3a1620
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: 1c49fc25387c3b04713d8e62fa8c5bf8e87e2cae
+
+COCOAPODS: 1.10.1
